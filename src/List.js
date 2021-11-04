@@ -8,7 +8,7 @@ function List({ books }) {
         return (
           <article key={id} className="book">
             <img src={image} alt={title} />
-            <div>
+            <div className="title">
               <h4>Author: {author}</h4>
               <p>Book Title: {title}</p>
             </div>
